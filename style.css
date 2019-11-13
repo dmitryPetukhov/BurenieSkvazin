@@ -19,18 +19,21 @@
     background: rgba(246, 243, 243, 0.6);
 }
 @media(min-width:500px){
-    .btn-floating{display: none;} 
+    .btn-floating {display: none;} 
    
     }
 
 @media(max-width:500px){
-    .carousel{
-    display:none;}
-    a.brand-logo{
-        display: none;
-    }
+     #nav-mobile{ display:none;}
+    a.brand-logo{display: none;}
     .btn-floating{position: fixed}
-    .nav-wrapper>img{margin: 0px};
+    .nav-wrapper>img{margin:0px!important;margin-left: -15px!important;};
+    #call{position: fixed;}
+    #number2{margin: 0px!important;margin-left: -15px!important;
+        width: 150px!important;font-size: 11px;}
+    .carousel-slider{display: none;}
+    #advantages > li{ font-size: 14px;}
+    .btn-floating{margin-top:175px }
     
 
 }
